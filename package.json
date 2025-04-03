@@ -1,0 +1,34 @@
+{
+  "name": "eslint-config-sevencooks-expo",
+  "version": "0.0.1",
+  "description": "SevenCooks linter configuration for expo projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sevencooks-gmbh-co-kg/eslint-config-sevencooks-expo.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "SevenCooks",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/sevencooks-gmbh-co-kg/eslint-config-sevencooks-expo/issues"
+  },
+  "homepage": "https://github.com/sevencooks-gmbh-co-kg/eslint-config-sevencooks-expo#readme",
+  "peerDependencies": {
+    "eslint": "^9.23.0"
+  },
+  "dependencies": {
+    "@eslint/compat": "^1.2.8",
+    "eslint": "^9.23.0",
+    "eslint-config-expo": "8.1.0-canary-20250331-817737a",
+    "eslint-plugin-formatjs": "^5.3.1",
+    "eslint-plugin-react-native": "^5.0.0",
+    "eslint-plugin-testing-library": "^7.1.1",
+    "typescript-eslint": "^8.29.0"
+  }
+}
