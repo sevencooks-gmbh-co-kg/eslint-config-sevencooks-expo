@@ -9,6 +9,10 @@ npm version [major|minor|patch]
 This will update the version in `package.json` and create a new Git tag. You need to push the changes to the remote repository:
 
 ```bash
+git push origin main
+```
+
+```bash
 git push origin --tags
 ```
 
