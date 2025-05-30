@@ -1,5 +1,5 @@
 name: Publish npm package
-description: This workflow publishes the npm package to npmjs.org.
+# This workflow publishes the npm package to npmjs.org.
 
 on:
   workflow_dispatch:
