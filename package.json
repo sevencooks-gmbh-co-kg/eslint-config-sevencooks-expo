@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sevencooks-expo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "SevenCooks linter configuration for expo projects",
   "main": "index.js",
   "repository": {
