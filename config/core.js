@@ -52,6 +52,7 @@ module.exports = [
       // General rules
       "no-warning-comments": "warn",
       "no-console": "error",
+      "no-debugger": "error",
       "dot-notation": "warn",
       camelcase: "error",
       "prefer-destructuring": "error",
