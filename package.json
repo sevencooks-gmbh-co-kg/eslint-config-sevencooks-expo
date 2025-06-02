@@ -17,15 +17,14 @@
   },
   "homepage": "https://github.com/sevencooks-gmbh-co-kg/eslint-config-sevencooks-expo#readme",
   "peerDependencies": {
-    "eslint": "^9.27.0"
+    "eslint": "^9.23.0"
   },
   "dependencies": {
-    "@eslint/compat": "^1.2.9",
-    "eslint": "^9.27.0",
+    "@eslint/compat": "^1.2.8",
+    "eslint": "^9.23.0",
     "eslint-config-expo": "^9.2.0",
     "eslint-plugin-formatjs": "^5.3.1",
     "eslint-plugin-react-native": "^5.0.0",
-    "eslint-plugin-testing-library": "^7.2.2",
-    "typescript-eslint": "^8.33.0"
+    "eslint-plugin-testing-library": "^7.3.0"
   }
 }

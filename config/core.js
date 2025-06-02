@@ -1,25 +1,9 @@
-const typescriptEslint = require("@typescript-eslint/eslint-plugin");
-
 /**
  * @fileoverview ESLint configuration for our TypeScript projects
  */
 module.exports = [
   {
     files: ["**/*.ts", "**/*.tsx", "**/*.d.ts"],
-    plugins: {
-      "@typescript-eslint": typescriptEslint,
-    },
-    settings: {
-      "import/parsers": {
-        "@typescript-eslint/parser": [".ts", ".tsx", ".d.ts"],
-      },
-      "import/resolver": {
-        typescript: {
-          alwaysTryTypes: true,
-          project: "./tsconfig.json",
-        },
-      },
-    },
     rules: {
       // Typescript rules
       "@typescript-eslint/ban-ts-comment": "error",
@@ -33,7 +17,10 @@ module.exports = [
           default: "array-simple",
         },
       ],
+      "@typescript-eslint/no-require-imports": "off",
 
+      // React rules
+      "react/no-unescaped-entities": "off",
       "react/display-name": "off",
 
       // Import rules
