@@ -32,9 +32,16 @@ module.exports = [
       "import/order": ["error", { "newlines-between": "always" }],
       "import/no-duplicates": "error",
       "import/no-useless-path-segments": "error",
-      "import/no-cycle": ["error", { ignoreExternal: true }],
+      // Disable no-cycle as it doesn't work well, we'll use madge for that
+      "import/no-cycle": "off",
       "import/no-anonymous-default-export": "error",
       "import/no-unresolved": "error",
+
+      // TypeScript already handles these
+      "import/default": "off",
+      "import/named": "off",
+      "import/namespace": "off",
+      "import/no-named-as-default-member": "off",
 
       // General rules
       "no-warning-comments": "warn",
